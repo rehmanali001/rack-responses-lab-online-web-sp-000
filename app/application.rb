@@ -7,7 +7,8 @@ class Application
     
     if noon < 12 
       resp.write "GoodMorning!"
-    else 
+    elsif noon > 12 
+      resp.write "Good Afternoon!"
     
   end
 end 
