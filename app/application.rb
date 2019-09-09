@@ -6,7 +6,7 @@ class Application
     noon = Kernel.rand(1..24)
     
     if noon < 12 
-      resp.write "GoodMorning!"
+      resp.write "Good Morning!"
     elsif noon >= 12 
       resp.write "Good Afternoon!"
     
